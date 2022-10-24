@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contador</title>
+</head>
+<body class="bg-gray-300">
+    <div class="container mx-auto mt-36 w-1/2 h-96 text-center text-xl bg-gray-100 flex flex-col justify-around gap-10">
+
+        <h1> TEMPORIZADOR RECURSIVO </h1>
+        <div class="w-auto gap-20 flex justify-center">
+            <input type="text" placeholder="0" class="text-center h-24 w-24" id="tiempo">
+            <button id="boton" class="rounded-full h-24 w-24 bg-gray-300"> start</button>
+        </div>
+        
+        <div class="bg-white h-24 w-24 self-center pt-8" id="contador"> 0</div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
